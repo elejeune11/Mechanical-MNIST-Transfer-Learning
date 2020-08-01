@@ -32,4 +32,5 @@ The folder "metamodels" contains the following scripts:
 * metamodel_evaluation.py -- code to evaluate the trained metamodels (with and without pre-training), model test error can be easily computed from the outputs of this script
 * metamodel_visualize_first_layer_activation.py -- code to visualize the trained CNNs, used to generate figures in the manuscript (code is adapted from: https://github.com/utkuozbulak/pytorch-cnn-visualizations)
 * metamodel_visualize_first_layer_activation_plot_nicely.py -- code to nicely plot the results of the visualizations 
+
 Note that "sample_data" will have to be un-zipped for the code to run as is. The full dataset can be downloaded from the OpenBU repository. 
