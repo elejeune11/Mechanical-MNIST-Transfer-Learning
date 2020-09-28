@@ -12,7 +12,7 @@ The full dataset is hosted by OpenBU. Link to the collection: https://open.bu.ed
 
 ## 1) the code used to generate the dataset
 
-Here we provide code to generate the low-fidelity versions of Mechanical-MNIST in the "generate_dataset" folder. The script "run_FEA_simulation.py" will run simulations in FEniCS, note: command line inputs are required. The folder "sample_data" will have to be un-zipped to access the input bitmaps. The code to generate the original Mechanical-MNIST dataset is available in this repository: https://github.com/elejeune11/Mechanical-MNIST
+Here we provide code to generate the low-fidelity versions of Mechanical-MNIST in the "generate_dataset" folder. The script "run_FEA_simulation.py" will run the 2D coarse mesh simulations in FEniCS, and the script "run_FEA_simulation_3D_UE_twist.py" will run the 3D simulations in FEniCS. Note: command line inputs are required for both scripts. The folder "sample_data" will have to be un-zipped to access the input bitmaps. The code to generate the original Mechanical-MNIST dataset is available in this repository: https://github.com/elejeune11/Mechanical-MNIST
 
 ## 2) a subset of the dataset
 
